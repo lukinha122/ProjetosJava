@@ -1,0 +1,23 @@
+package raio.com;
+import java.util.*;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double a = 3.14159; 
+        double r = 0  ;
+        double result = Math.pow(a, r);
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Digite o numero");
+        r = sc.nextInt();
+		       
+		System.out.println("Resultado");
+        System.out.println(result);
+		
+	}
+
+}
